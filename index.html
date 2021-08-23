@@ -13,6 +13,24 @@
         <div id = "branding">
             <img src = "./img/inc42-logo.svg">
         </div>
+        <div id = "small-screen-menu">
+            <ul>
+                <li><p><a href = "#">Login</a></p></li>
+                <li><p><a href = "#">Become a Member</a></p></li>
+                <li><a href = "#"><i class = "fab fa-facebook-square"></i></a></li>
+                <li><a href = "#"><i class = "fab fa-twitter"></i></a></li>
+                <li><a href = "#"><i class = "fab fa-linkedin-in"></i></a></li>
+                <li><a href = "#"><i class = "fab fa-youtube"></i></a></li>
+                <li><a href = "#">Latest</a>
+                <li><a href = "#">The crypto summit</a>
+                <li><a href = "#">d2c academy</a>
+                <li><a href = "#">explore</a>
+                <li><a href = "#">inc42 plus</a>
+                <li><a href = "#">projects</a>
+                <li><a href = "#">videos</a>
+                <li><a href = "#">more</a>
+            </ul>
+        </div>
         <nav>
             <ul>
                 <li><p><a class = "nav-link" href = "#">Login</a></p></li>
@@ -23,8 +41,16 @@
                 <li><a href = "#"><img id = "menu" src = "./img/menu.png"></a></li>
             </ul>
         </nav>
+        <div id = "menu-btn" onclick="on()">
+            <div class = "line"></div>
+            <div class = "line"></div>
+            <div class = "line"></div>
+        </div>
+        <div class = "menu-small-screen">
+
+        </div>
     </header>
-    <div class = "container">
+    <div class = "container" onclick="off()">
         <div id = "link-strip">
             <a id = "search-icon" href = "#"><i class = "fab fa-sistrix"></i></a>
             <a class = "link-strip-link" href = "#">Latest</a>
@@ -47,18 +73,22 @@
                 </h1>
                 <div class = "profile">
                     <img src = "./img/profile-pic.jpg">
-                    <ul class = "profile-left-content">
+                    <div class = "profile-left-content">
+                        <ul>
                         <li><a href = "#">Anvita Pillai</a></li>
                         <li><p>Inc42 Staff</p></li>
                         <li><p>19 Aug'21 • 2 min read</p></li>
-                    </ul>
-                    <ul class = "profile-right-content">
+                        </ul>
+                    </div>
+                    <div class = "profile-right-content">
+                        <ul>
                         <li><p>share story</p></li>
                         <li><a href = "#"><img src = "./img/whatsapp.png"></a></li>
                         <li><a href = "#"><img src = "./img/facebook_main.png"></a></li>
                         <li><a href = "#"><img src = "./img/twitter_main.png"></a></li>
                         <li><a href = "#"><img src = "./img/linkedin_main.png"></a></li>
-                    </ul>
+                        </ul>
+                    </div>
                 </div>
                 <hr>
                 <div>
@@ -91,9 +121,28 @@
                         <p class = "main-card-text">
                             Bhamra said, “In the era of agriculture 4.0, the demand for better market linkages and secure food trade is driving deeper penetration of technology in agricultural ecosystems. Our deep-tech enabled value created by AgNext for our partners has been instrumental in driving our growth story. Today, we are ready to scale our operations globally and build a robust international presence.”
                         </p>
-
+                        <div class = "profile-ss">
+                            <div class = "profile-left-ss">
+                                <img src = "./img/profile-pic.jpg">
+                                <div class = "profile-left-ss-text">
+                                    <p>Anvita P.</p>
+                                    <p><a href = "#">Inc42 Staff</a></p>
+                                    <p>19 Aug'21 • 2 min read</p>
+                                </div>
+                            </div>
+                            <div class = "profile-right-ss">
+                                <p>share story</p>
+                                <img src = "./img/whatsapp.png">
+                                <img src = "./img/facebook_main.png">
+                                <img src = "./img/twitter_main.png">
+                                <img src = "./img/linkedin_main.png">
+                            </div>
+                            </div>
+                        </div>
+                        <div class = "endlinks-container">
                         <a href = "#" class = "main-card-endlinks">Agritech</a>
                         <a href = "#" class = "main-card-endlinks">Funding</a>
+                        </div>
                     </p>
                 </div>
             </div>
@@ -112,7 +161,7 @@
                 <h4>
                     <a href = "#">BharatPe Bags INR 200 Cr Debt Fund From IIFL Wealth And Northern Arc Capital</a>
                 </h4>
-                <p>By Debarghya S. | 19 Aug'21 • 2 min read</p>x
+                <p>By Debarghya S. | 19 Aug'21 • 2 min read</p>
             </div>   
             <div class = "sidebar-story">
                 <p>News</p>
@@ -170,47 +219,57 @@
 
     </div>
     <div class = "featured-section">
-        <a href = "" class = "left-arrow"><i class = "fas fa-chevron-left"></i></a>
-        <a href = "" class = "right-arrow"><i class = "fas fa-chevron-right"></i></a>
-        <h1>Featured Stories</h1>
-        <a href = "#" class = "view-all">View all&nbsp;<i class = "fas fa-chevron-right"></i></a>
+        <div class = "featured-section-content">
+            <a href = "" class = "left-arrow"><i class = "fas fa-chevron-left"></i></a>
+            <a href = "" class = "right-arrow"><i class = "fas fa-chevron-right"></i></a>
+            <h1>Featured Stories</h1>
+            <a href = "#" class = "view-all">View all&nbsp;<i class = "fas fa-chevron-right"></i></a>
+        </div>
         <div class = "stories-container">
-        <div class = "featured-story">
-            <img src = "./img/img5.jpg">
-            <div class = "featured-story-content">
-                <p><a href = "#" class = "main-content-head-link">FEATURES</a></p>
-                <p><a href = "#" class = "featured-story-link">'We were rejected by 20 investors in 2015' says co-founder of Recently-Minted E...</a></p>
-                <p>By Deepsekhar C.</p>
-                <p>14 Aug'21 • 11 min read</p   >
+            <div class = "featured-story">
+                <img src = "./img/img5.jpg">
+                <div class = "featured-story-content">
+                    <p><a href = "#" class = "main-content-head-link">FEATURES</a></p>
+                    <p><a href = "#" class = "featured-story-link">'We were rejected by 20 investors in 2015' says co-founder of Recently-Minted E...</a></p>
+                    <p>By Deepsekhar C.</p>
+                    <p>14 Aug'21 • 11 min read</p>
+                    <p class = "for-ss">By Suprita A.</p>
+                    <p class = "for-ss">14 Aug'21 • 11 min read</p>
+                </div>
             </div>
-        </div>
-        <div class = "featured-story">
-            <img src = "./img/img6.jpg">
-            <div class = "featured-story-content">
-                <p><a href = "#" class = "main-content-head-link">FEATURES</a></p>
-                <p><a href = "#" class = "featured-story-link">India's Crypto Economy | Influencers, promote it with care!</a></p>
-                <p>By Suprita A.</p>
-                <p>14 Aug'21 • 11 min read</p   >
+            <div class = "featured-story">
+                <img src = "./img/img6.jpg">
+                <div class = "featured-story-content">
+                    <p><a href = "#" class = "main-content-head-link">FEATURES</a></p>
+                    <p><a href = "#" class = "featured-story-link">India's Crypto Economy | Influencers, promote it with care!</a></p>
+                    <p>By Suprita A.</p>
+                    <p>14 Aug'21 • 11 min read</p>
+                    <p class = "for-ss">By Suprita A.</p>
+                    <p class = "for-ss">14 Aug'21 • 11 min read</p>
+                </div>
             </div>
-        </div>
-        <div class = "featured-story">
-            <img src = "./img/img7.webp">
-            <div class = "featured-story-content">
-                <p><a href = "#" class = "main-content-head-link">FEATURES</a></p>
-                <p><a href = "#" class = "featured-story-link">'We were rejected by 20 investors in 2015' says co-founder of Recently-Minted E...</a></p>
-                <p>By Deepsekhar C.</p>
-                <p>14 Aug'21 • 11 min read</p   >
+            <div class = "featured-story">
+                <img src = "./img/img7.webp">
+                <div class = "featured-story-content">
+                    <p><a href = "#" class = "main-content-head-link">FEATURES</a></p>
+                    <p><a href = "#" class = "featured-story-link">'We were rejected by 20 investors in 2015' says co-founder of Recently-Minted E...</a></p>
+                    <p>By Deepsekhar C.</p>
+                    <p>14 Aug'21 • 11 min read</p>
+                    <p class = "for-ss">By Suprita A.</p>
+                    <p class = "for-ss">14 Aug'21 • 11 min read</p>
+                </div>
             </div>
-        </div>
-        <div class = "featured-story">
-            <img src = "./img/img8.jpg">
-            <div class = "featured-story-content">
-                <p><a href = "#" class = "main-content-head-link">FEATURES</a></p>
-                <p><a href = "#" class = "featured-story-link">'We were rejected by 20 investors in 2015' says co-founder of Recently-Minted E...</a></p>
-                <p>By Deepsekhar C.</p>
-                <p>14 Aug'21 • 11 min read</p   >
+            <div class = "featured-story">
+                <img src = "./img/img8.jpg">
+                <div class = "featured-story-content">
+                    <p><a href = "#" class = "main-content-head-link">FEATURES</a></p>
+                    <p><a href = "#" class = "featured-story-link">'We were rejected by 20 investors in 2015' says co-founder of Recently-Minted E...</a></p>
+                    <p>By Deepsekhar C.</p>
+                    <p>14 Aug'21 • 11 min read</p>
+                    <p class = "for-ss">By Suprita A.</p>
+                    <p class = "for-ss">14 Aug'21 • 11 min read</p>
+                </div>
             </div>
-        </div>
         </div> 
     </div>
 
@@ -318,13 +377,13 @@
     <div class = "footer">
         <div class = "img-container"><img src = "./img/inc42-footer-logo.svg"></div>
         <p>&copy;2021 Inc42 All Rights Reserved</p>
-        <p class = "links">
+        <div class = "links">
             <a href = "#"><i class = "fab fa-facebook-square"></i></a>
             <a href = "#"><i class = "fab fa-twitter"></i></a>
             <a href = "#"><i class = "fab fa-linkedin-in"></i></a>
             <a href = "#"><i class = "fab fa-telegram"></i></a>
             <a href = "#"><i class = "fab fa-youtube"></i></a>
-        </p>
+        </div>
     </div>
     <script src="./script1.js"></script>
 </body>
