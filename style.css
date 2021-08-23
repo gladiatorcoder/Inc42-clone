@@ -696,7 +696,16 @@ nav ul li p{
     display: none;
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 1350px){
+    .featured-story:nth-child(4){
+        display: none;
+    }
+    .featured-story{
+        width: 31.5%;
+    }
+}
+
+@media(max-width: 1335px) {
     *{
         box-sizing: border-box;
         margin: 0;
@@ -957,6 +966,7 @@ nav ul li p{
         min-height: 350px;
         background: linear-gradient(to right, #e32756, #e33424);
         position: relative;
+        margin-bottom: 500px;
     }
 
     .stories-container{
@@ -968,7 +978,7 @@ nav ul li p{
     
     .featured-story{
         float: left;
-        min-height: 450px;  
+        min-height: 500px;  
         border: 1px solid #ddd;
         width: 46%;
         border-radius: 10px;
@@ -991,7 +1001,6 @@ nav ul li p{
     .featured-story-content{
         text-decoration: none;
         padding: 25px; 
-        min-height: 100%;
     }
     
     .featured-story-content p:nth-child(4){
